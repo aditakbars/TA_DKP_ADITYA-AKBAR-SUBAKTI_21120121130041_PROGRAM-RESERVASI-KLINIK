@@ -17,8 +17,8 @@ public class intro {
         fr.add(panelIntro);
         fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         fr.setResizable(true);
-        fr.setLocation(650,240);
-        fr.setSize(600,600);
+        fr.setLocation(650,230);
+        fr.setSize(600,630);
 
         selanjutnyaButton.setFocusable(false);
 

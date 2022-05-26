@@ -5,7 +5,9 @@
     <constraints>
       <xy x="20" y="20" width="500" height="337"/>
     </constraints>
-    <properties/>
+    <properties>
+      <background color="-2359297"/>
+    </properties>
     <border type="none"/>
     <children>
       <hspacer id="13bf1">
@@ -35,16 +37,17 @@
           </grid>
         </constraints>
         <properties>
+          <background color="-1"/>
           <editable value="false"/>
           <font size="16"/>
         </properties>
       </component>
-      <component id="420fb" class="javax.swing.JButton" binding="okesipButton" default-binding="true">
+      <component id="420fb" class="javax.swing.JButton" binding="okeeButton">
         <constraints>
           <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Okesip"/>
+          <text value="Oke"/>
         </properties>
       </component>
       <component id="2c2fa" class="javax.swing.JButton" binding="kembali2Button">

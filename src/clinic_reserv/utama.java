@@ -1,6 +1,7 @@
 package clinic_reserv;
 
 import javax.swing.*;
+import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.time.LocalDate;
@@ -31,7 +32,7 @@ public class utama {
 
     utama(){
 
-        JFrame fram = new JFrame("lanjotan");
+        JFrame fram = new JFrame("Klinik Permata Bunga");
         fram.setVisible(true);
         fram.setContentPane(panelKed);
         fram.setDefaultCloseOperation(3);
@@ -40,12 +41,10 @@ public class utama {
         Nama = depan.nama;
         sap = depan.sapa;
 
-        labelut.setText("Halo "+ sap +" "+ Nama );
-        labelut.setVisible(false);
 
         textAreaInfo.setText(" Jam Pelayanan :\n Shift Pagi = 08.00 s.d. 11.30 WIB\n Shift Sore = 14.00 s.d. 17.30 WIB");
 
-        labelErr.setText("*Data Anda belum lengkap");
+        labelErr.setText("*Silakan memilih hari dan shift");
         labelErr.setVisible(false);
 
         LocalDate tgl = LocalDate.now();

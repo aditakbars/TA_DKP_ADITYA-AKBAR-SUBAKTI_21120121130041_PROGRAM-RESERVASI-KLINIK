@@ -11,13 +11,13 @@ public class depan {
     private JTextField textFieldNama;
     private JTextField textFieldAlamat;
     private JTextField textFieldEmail;
-    private JTextField textFieldNotelp;
     private JButton button1;
     private JTextField textFieldUsia;
     private JRadioButton priaRadioButton;
     private JRadioButton wanitaRadioButton;
     private JButton resetButton;
     private JLabel labelError;
+    private JPanel panelatas;
 
     static JFrame frm;
 
@@ -31,7 +31,6 @@ public class depan {
     int err;
 
     ImageIcon bg = new ImageIcon("logo_klini_4040.png");
-    Image icon = Toolkit.getDefaultToolkit().getImage("logo_klini_4040.png");
 
     public depan() {
 
@@ -40,15 +39,14 @@ public class depan {
         frm.add(panelDpn);
         frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frm.setResizable(true);
-        frm.setSize(555, 430);
-        frm.setIconImage(icon);
+        frm.setSize(777, 430);
         frm.setLocationRelativeTo(null);
 
         ButtonGroup jenisKelamin = new ButtonGroup();
         jenisKelamin.add(priaRadioButton);
         jenisKelamin.add(wanitaRadioButton);
 
-        labelError.setText("*mohon isikan data dengan lengkap dan benar");
+        labelError.setText("*mohon isikan data dengan benar dan lengkap");
         labelError.setVisible(false);
 
 
