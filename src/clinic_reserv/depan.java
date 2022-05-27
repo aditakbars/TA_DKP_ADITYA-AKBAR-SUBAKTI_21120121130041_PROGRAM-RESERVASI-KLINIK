@@ -25,13 +25,11 @@ public class depan {
     static String nama;
     static String sapa;
     String alamat;
-    String kelamin;
     String email;
     int usia;
     int jk;
     int err;
 
-    ImageIcon bg = new ImageIcon("logo_klini_4040.png");
 
     public depan() {
 
@@ -105,14 +103,12 @@ public class depan {
         priaRadioButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                kelamin = "Pria";
                 jk = 1;
             }
         });
         wanitaRadioButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-                kelamin = "Wanita";
                 jk = 2;
             }
         });
