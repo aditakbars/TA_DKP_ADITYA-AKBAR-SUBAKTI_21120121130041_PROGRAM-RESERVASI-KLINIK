@@ -66,15 +66,13 @@ public class depan {
                 
                 if (nama.equals("")||alamat.equals("")||email.equals("")||usi.equals("")){
                     err = 1;
+                } else if(usia < 1 || jk < 1){
+                    err = 1;
                 } else{
                     err = 0;
                 }
 
-                if (usia < 1){
-                    labelError.setVisible(true);
-                }else if(jk < 1){
-                    labelError.setVisible(true);
-                }else if (err == 1) {
+                if (err == 1) {
                     labelError.setVisible(true);
                 } else {
                     if (usia > 35 && jk == 1) {
