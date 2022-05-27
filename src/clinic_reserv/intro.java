@@ -17,11 +17,10 @@ public class intro {
         fr.add(panelIntro);
         fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         fr.setResizable(true);
-        fr.setLocation(650,230);
+        fr.setLocation(650,175);
         fr.setSize(600,630);
 
         selanjutnyaButton.setFocusable(false);
-
 
         selanjutnyaButton.addActionListener(new ActionListener() {
             @Override

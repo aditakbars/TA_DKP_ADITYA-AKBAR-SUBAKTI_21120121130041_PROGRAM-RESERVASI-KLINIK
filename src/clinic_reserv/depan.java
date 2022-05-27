@@ -18,6 +18,7 @@ public class depan {
     private JButton resetButton;
     private JLabel labelError;
     private JPanel panelatas;
+    private JLabel labelATAS;
 
     static JFrame frm;
 
@@ -39,7 +40,7 @@ public class depan {
         frm.add(panelDpn);
         frm.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frm.setResizable(true);
-        frm.setSize(777, 430);
+        frm.setSize(616, 480);
         frm.setLocationRelativeTo(null);
 
         ButtonGroup jenisKelamin = new ButtonGroup();
@@ -48,6 +49,8 @@ public class depan {
 
         labelError.setText("*mohon isikan data dengan benar dan lengkap");
         labelError.setVisible(false);
+
+        labelATAS.setIconTextGap(5);
 
 
         button1.addActionListener(new ActionListener() {

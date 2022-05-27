@@ -21,6 +21,7 @@ public class utama {
     private JComboBox comboBoxShi;
     private JTextField textFieldWakt;
     private JTextArea textAreaInfo;
+    private JPanel panelInfo;
 
     String Nama ;
     String sap;
@@ -36,13 +37,13 @@ public class utama {
         fram.setVisible(true);
         fram.setContentPane(panelKed);
         fram.setDefaultCloseOperation(3);
-        fram.setSize(550,430);
+        fram.setSize(600,530);
         fram.setLocationRelativeTo(null);
         Nama = depan.nama;
         sap = depan.sapa;
 
 
-        textAreaInfo.setText(" Jam Pelayanan :\n Shift Pagi = 08.00 s.d. 11.30 WIB\n Shift Sore = 14.00 s.d. 17.30 WIB");
+        textAreaInfo.setText(" Jam Pelayanan :\n Shift Pagi = 08.00 s.d. 11.30 WIB\n Shift Sore = 14.00 s.d. 17.30 WIB\n");
 
         labelErr.setText("*Silakan memilih hari dan shift");
         labelErr.setVisible(false);

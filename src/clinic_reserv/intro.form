@@ -26,7 +26,7 @@
           </grid>
         </constraints>
         <properties>
-          <font name="SansSerif" size="14" style="0"/>
+          <font name="Ebrima" size="16" style="0"/>
           <text value="Selanjutnya"/>
         </properties>
       </component>

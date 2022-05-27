@@ -10,6 +10,7 @@ public class akhir {
     private JTextArea textAreaKonf;
     private JButton okeeButton;
     private JButton kembali2Button;
+    private JPanel panelTextare;
 
     public static JFrame fram;
 
@@ -18,11 +19,11 @@ public class akhir {
         fram.setVisible(true);
         fram.setContentPane(panelAkh);
         fram.setDefaultCloseOperation(3);
-        fram.setSize(600,350);
+        fram.setSize(630,400);
         fram.setLocationRelativeTo(null);
 
-        textAreaKonf.setText("Baik, "+depan.sapa+" "+depan.nama+". Kami akan mengirimkan pesan konfirmasi ke email Anda.\nNomor antrean anda adalah "+ utama.antrean+
-                ".\nSilakan datang ke klinik pukul "+ utama.dtg+" WIB.");
+        textAreaKonf.setText(" Baik, "+depan.sapa+" "+depan.nama+". \n Kami akan mengirimkan pesan konfirmasi ke email Anda.   \n Nomor antrean anda adalah "+ utama.antrean+
+                ".\n Silakan datang ke klinik pukul "+ utama.dtg+" WIB.");
 
         okeeButton.addActionListener(new ActionListener() {
             @Override

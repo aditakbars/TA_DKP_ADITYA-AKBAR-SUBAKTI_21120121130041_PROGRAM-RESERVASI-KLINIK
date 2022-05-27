@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="clinic_reserv.depan">
-  <grid id="27dc6" binding="panelDpn" layout-manager="GridLayoutManager" row-count="19" column-count="7" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+  <grid id="27dc6" binding="panelDpn" layout-manager="GridLayoutManager" row-count="18" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="0" left="0" bottom="0" right="0"/>
     <constraints>
-      <xy x="20" y="20" width="526" height="496"/>
+      <xy x="20" y="20" width="582" height="522"/>
     </constraints>
     <properties>
       <background color="-1703937"/>
@@ -12,156 +12,156 @@
     <children>
       <component id="3e1c5" class="javax.swing.JLabel">
         <constraints>
-          <grid row="5" column="1" row-span="1" col-span="5" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="1" row-span="1" col-span="4" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font size="16" style="0"/>
+          <font name="Ebrima" size="19" style="0"/>
           <text value="Silakan mengisikan data diri anda terlebih dahulu"/>
         </properties>
       </component>
       <hspacer id="a2078">
         <constraints>
-          <grid row="7" column="6" row-span="12" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="6" column="5" row-span="12" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
       <component id="db364" class="javax.swing.JLabel">
         <constraints>
-          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
             <preferred-size width="75" height="16"/>
           </grid>
         </constraints>
         <properties>
-          <font size="16" style="0"/>
+          <font name="Ebrima" size="17" style="0"/>
           <text value="Nama"/>
         </properties>
       </component>
       <component id="d67e5" class="javax.swing.JTextField" binding="textFieldNama">
         <constraints>
-          <grid row="8" column="2" row-span="1" col-span="4" vsize-policy="2" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="7" column="2" row-span="1" col-span="3" vsize-policy="2" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties>
-          <font size="14"/>
+          <font name="Ebrima" size="17" style="0"/>
           <text value=""/>
         </properties>
       </component>
       <component id="2745c" class="javax.swing.JLabel">
         <constraints>
-          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font size="16" style="0"/>
+          <font name="Ebrima" size="17" style="0"/>
           <text value="Alamat"/>
         </properties>
       </component>
       <component id="62039" class="javax.swing.JLabel">
         <constraints>
-          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font size="16" style="0"/>
+          <font name="Ebrima" size="17" style="0"/>
           <text value="Email"/>
         </properties>
       </component>
       <component id="77371" class="javax.swing.JTextField" binding="textFieldAlamat">
         <constraints>
-          <grid row="9" column="2" row-span="1" col-span="4" vsize-policy="2" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="8" column="2" row-span="1" col-span="3" vsize-policy="2" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties>
-          <font size="14"/>
+          <font name="Ebrima" size="17" style="0"/>
         </properties>
       </component>
       <component id="c66cf" class="javax.swing.JTextField" binding="textFieldEmail">
         <constraints>
-          <grid row="10" column="2" row-span="1" col-span="4" vsize-policy="2" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="9" column="2" row-span="1" col-span="3" vsize-policy="2" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties>
-          <font size="14" style="0"/>
+          <font name="Ebrima" size="17" style="0"/>
         </properties>
       </component>
       <component id="929a0" class="javax.swing.JButton" binding="button1" default-binding="true">
         <constraints>
-          <grid row="17" column="4" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+          <grid row="16" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="262" height="30"/>
           </grid>
         </constraints>
         <properties>
-          <font size="14" style="0"/>
+          <font name="Ebrima" size="15" style="0"/>
           <text value="Lanjut"/>
         </properties>
       </component>
       <component id="c1f72" class="javax.swing.JLabel">
         <constraints>
-          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font size="16" style="0"/>
+          <font name="Ebrima" size="17" style="0"/>
           <text value="Usia (Tahun)"/>
         </properties>
       </component>
       <component id="63dc1" class="javax.swing.JTextField" binding="textFieldUsia">
         <constraints>
-          <grid row="11" column="2" row-span="1" col-span="4" vsize-policy="2" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+          <grid row="10" column="2" row-span="1" col-span="3" vsize-policy="2" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
         <properties>
-          <font size="14"/>
+          <font name="Ebrima" size="17" style="0"/>
         </properties>
       </component>
       <component id="5d02b" class="javax.swing.JLabel">
         <constraints>
-          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font size="16" style="0"/>
+          <font name="Ebrima" size="17" style="0"/>
           <text value="Jenis Kelamin"/>
         </properties>
       </component>
       <component id="5b31b" class="javax.swing.JRadioButton" binding="priaRadioButton" default-binding="true">
         <constraints>
-          <grid row="12" column="2" row-span="1" col-span="2" vsize-policy="2" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="11" column="2" row-span="1" col-span="2" vsize-policy="2" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1703937"/>
-          <font size="16" style="0"/>
+          <font name="Ebrima" size="17" style="0"/>
           <selected value="false"/>
           <text value="Pria"/>
         </properties>
       </component>
       <component id="aef2" class="javax.swing.JRadioButton" binding="wanitaRadioButton" default-binding="true">
         <constraints>
-          <grid row="12" column="4" row-span="1" col-span="2" vsize-policy="2" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="11" column="4" row-span="1" col-span="1" vsize-policy="2" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-1703937"/>
-          <font size="16" style="0"/>
+          <font name="Ebrima" size="17" style="0"/>
           <text value="Wanita"/>
         </properties>
       </component>
       <component id="7ca52" class="javax.swing.JButton" binding="resetButton" default-binding="true">
         <constraints>
-          <grid row="17" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="16" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font size="14" style="0"/>
+          <font name="Ebrima" size="15" style="0"/>
           <text value="Reset"/>
         </properties>
       </component>
       <vspacer id="9464b">
         <constraints>
-          <grid row="18" column="1" row-span="1" col-span="5" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+          <grid row="17" column="1" row-span="1" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
         </constraints>
       </vspacer>
       <grid id="6e35d" binding="panelatas" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="1" column="0" row-span="4" col-span="7" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
+          <grid row="1" column="0" row-span="4" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <minimum-size width="-1" height="60"/>
           </grid>
         </constraints>
@@ -170,14 +170,15 @@
         </properties>
         <border type="none"/>
         <children>
-          <component id="bd7c3" class="javax.swing.JLabel">
+          <component id="bd7c3" class="javax.swing.JLabel" binding="labelATAS">
             <constraints>
               <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <font name="Bell MT" size="26" style="1"/>
-              <horizontalAlignment value="4"/>
-              <horizontalTextPosition value="0"/>
+              <font name="Bell MT" size="28" style="1"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="4"/>
+              <icon value="clinic_reserv/logo_klini_4040.png"/>
               <text value="KLINIK PERMATA BUNGA"/>
             </properties>
           </component>
@@ -185,13 +186,13 @@
       </grid>
       <hspacer id="43f76">
         <constraints>
-          <grid row="5" column="0" row-span="14" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+          <grid row="5" column="0" row-span="13" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
       </hspacer>
       <grid id="e96f5" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="0" left="0" bottom="0" right="0"/>
         <constraints>
-          <grid row="0" column="0" row-span="1" col-span="7" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="6" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <background color="-8331542"/>
@@ -209,7 +210,7 @@
       </grid>
       <vspacer id="be6ed">
         <constraints>
-          <grid row="15" column="1" row-span="2" col-span="4" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
+          <grid row="14" column="4" row-span="2" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false">
             <preferred-size width="-1" height="25"/>
             <maximum-size width="-1" height="15"/>
           </grid>
@@ -217,10 +218,10 @@
       </vspacer>
       <component id="440e7" class="javax.swing.JLabel" binding="labelError">
         <constraints>
-          <grid row="13" column="4" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="12" column="4" row-span="1" col-span="1" vsize-policy="2" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <font name="Fira Code" size="16" style="0"/>
+          <font name="Dubai" size="17" style="0"/>
           <foreground color="-51670"/>
           <text value="*error"/>
         </properties>
