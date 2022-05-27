@@ -58,10 +58,15 @@ public class depan {
                 alamat = textFieldAlamat.getText();
                 email = textFieldEmail.getText();
                 String usi = textFieldUsia.getText();
+                try {
+                    usia = Integer.parseInt(textFieldUsia.getText());
+                } catch (NumberFormatException er){
+                    err = 1;}
+//                err = 1 untuk mengindikasikan adanya kesalahan/error
+                
                 if (nama.equals("")||alamat.equals("")||email.equals("")||usi.equals("")){
                     err = 1;
                 } else{
-                    usia = Integer.parseInt(textFieldUsia.getText());
                     err = 0;
                 }
 
