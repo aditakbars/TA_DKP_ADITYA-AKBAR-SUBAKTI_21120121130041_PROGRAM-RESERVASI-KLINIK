@@ -1,18 +1,16 @@
 package clinic_reserv;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class intro {
     private JPanel panelIntro;
     private JLabel labelLogo;
-    private JButton selanjutnyaButton;
+    private JProgressBar progressBarLoad;
 
+    static JFrame fr = new JFrame("Klinik Permata Bunga");
 
     public intro() {
 
-        JFrame fr = new JFrame("Klinik Permata Bunga");
         fr.setVisible(true);
         fr.add(panelIntro);
         fr.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -20,15 +18,24 @@ public class intro {
         fr.setLocation(650,175);
         fr.setSize(600,630);
 
-        selanjutnyaButton.setFocusable(false);
+        progressBarLoad.setStringPainted(true);
+        load();
+    }
 
-        selanjutnyaButton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                new depan();
-                fr.dispose();
+    public void load(){
+        int i = 0;
+        while (i <= 100){
+            progressBarLoad.setValue(i);
+            i += 3;
+            try {
+                Thread.sleep(150);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-        });
+        }
+        progressBarLoad.setString("DONE");
+        fr.dispose();
+        new depan();
     }
 
     public static void main(String[] args) {
